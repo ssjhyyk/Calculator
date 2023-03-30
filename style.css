@@ -1,0 +1,75 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    margin: 0;
+    padding: 150px;
+}
+
+.calc {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.calc__display {
+    padding: 10px;
+    text-align: right;
+    background-color: #f5f5f5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.calc__display__input {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.calc__buttons {
+    padding: 10px;
+}
+
+.calc__buttons__row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.calc__buttons__row__button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    font-size: 1.5rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.calc__buttons__row__button:hover {
+    background-color: #e0e0e0;
+}
+
+.calc__buttons__row__button:active {
+    background-color: #c8c8c8;
+}
+
+.calc__buttons__row__button--orange {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+.calc__buttons__row__button--orange:hover {
+    background-color: #f57c00;
+}
+
+.calc__buttons__row__button--orange:active {
+    background-color: #ef6c00;
+}
+
+.calc__buttons__row__button--zero {
+    flex: 2;
+}
